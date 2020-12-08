@@ -1,0 +1,17 @@
+namespace POO_Heranca.Classes
+{
+    public class PessoaFisica : Pessoa
+    {
+        public string cpf;
+        public string rg;
+
+        public bool ValidaCPF(string documento)
+        {
+            if(documento != ""){
+                return true;
+            }
+
+            return false;
+        }
+    }
+}
